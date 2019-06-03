@@ -36,7 +36,7 @@ return longerThanFour;
 function findTheCheese(snacks) { // ["grapes", "cheddar", "gouda"]
   var resultOfCheeseSearch = "no cheese!";
   var possibleCheeses = ["cheddar", "gouda", "camembert","swiss"];
-  for (var i= 1; i > snacks.length; i++) { 
+  for (var i= 0; i < snacks.length; i++) { 
     if  (possibleCheeses.includes(snacks[i])) {
       resultOfCheeseSearch = snacks[i]; // cheddar
     }
