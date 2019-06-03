@@ -38,9 +38,11 @@ function findTheCheese(snacks) {
   var possibleCheeses = ["cheddar", "gouda", "camembert","swiss"];
   for (var i= 0; i < snacks.length; i++) { 
     if  (possibleCheeses.includes(snacks[i])) {
-      return snacks[i]; 
     }
   }
+  return snacks[i];
+   
+
 
 
 
