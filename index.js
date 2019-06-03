@@ -1,4 +1,5 @@
 
+
 function dwarfRollCall(dwarves) {
 var numberedDwarves = "";
  for (var i= 0; i < dwarves.length; i++){ 
@@ -7,7 +8,7 @@ var numberedDwarves = "";
  return numberedDwarves;
  }
  
- var planeteerCalls= ["earth", "wind", "fire","water", "heart"]
+ 
  
  function summonCaptainPlanet(planeteerCalls) {
    var numberedplanteerCalls = "";
@@ -19,8 +20,6 @@ for (var i = 0; i < planeteerCalls.length; i++){
 }
 return planeteerCalls;
 }
-
-console.log(summonCaptainPlanet(planeteerCalls));
 
 
 function longPlaneteerCalls(short_words){
@@ -36,7 +35,7 @@ return longerThanFour;
 
 function findTheCheese(snacks) {
  var resultOfCheeseSearch = "no cheese!";
-  var possibleCheeses = ["cheddar", "gouda", "camembert"];
+  var possibleCheeses = ["cheddar", "gouda", "camembert","swiss"];
   for (var i= 0; i < snacks.length; i++) {
   
     if  (possibleCheeses.includes(snacks[i])) {
@@ -46,4 +45,5 @@ function findTheCheese(snacks) {
  return resultOfCheeseSearch;
 }
 
-    
+
+  
