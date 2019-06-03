@@ -33,16 +33,15 @@ for (var i = 0; i < short_words.length; i++){
 return longerThanFour;
 }
 
-function findTheCheese(snacks) { 
- var resultOfCheeseSearch = "no cheese!";
+function findTheCheese(snacks) { // ["grapes", "cheddar", "gouda"]
+  var resultOfCheeseSearch = "no cheese!";
   var possibleCheeses = ["cheddar", "gouda", "camembert","swiss"];
   for (var i= 0; i < snacks.length; i++) { 
-  
     if  (possibleCheeses.includes(snacks[i])) {
-        resultOfCheeseSearch = snacks[i]; // cheddar
+      resultOfCheeseSearch = snacks[i]; // cheddar
     }
-}
- return resultOfCheeseSearch;
+  }
+  return resultOfCheeseSearch;
 }
 
 
