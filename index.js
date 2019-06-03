@@ -38,7 +38,7 @@ function findTheCheese(snacks) { // ["grapes", "cheddar", "gouda"]
   var possibleCheeses = ["cheddar", "gouda", "camembert","swiss"];
   for (var i= 0; i < snacks.length; i++) { 
     if  (possibleCheeses.includes(snacks[i])) {
-      resultOfCheeseSearch = snacks[i]; // cheddar
+      return snacks[i]; // cheddar
     }
   }
   return resultOfCheeseSearch;
