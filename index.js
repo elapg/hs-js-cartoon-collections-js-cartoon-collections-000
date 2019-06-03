@@ -41,7 +41,7 @@ function findTheCheese(snacks) {
     }
   }
   return snacks[i];
-   
+}
 
 
 
